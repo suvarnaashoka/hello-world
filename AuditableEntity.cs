@@ -6,9 +6,7 @@ namespace Poc.Entities
 {
     public abstract class AuditableEntity  
     {
-        [ScaffoldColumn(false)]
-        [IgnoreDataMember]
-        public DateTime SystemCreatedDatetime { get; set; }
+        
 
         [ScaffoldColumn(false)]
         [IgnoreDataMember]
