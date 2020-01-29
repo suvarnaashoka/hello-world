@@ -8,7 +8,7 @@ namespace Poc.Entities
     {
         [ScaffoldColumn(false)]
         [IgnoreDataMember]
-        public DateTime SystemCreatedDateTime { get; set; }
+        public DateTime SystemCreatedDatetime { get; set; }
 
         [ScaffoldColumn(false)]
         [IgnoreDataMember]
